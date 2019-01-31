@@ -10,3 +10,5 @@ production build:
 ```sh
 $ npm run build
 ```
+#### Main view
+![alt text](https://i.ibb.co/NZ7pVVw/main-view.png)
