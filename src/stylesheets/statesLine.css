@@ -1,0 +1,65 @@
+:root {
+    --succeed-color: #63c139;
+    --rework-color: #e97017;
+    --checking-color: #ffd747;
+    --waiting-color: #4c8fe0;
+    --succeed-rework-mix: #ab922e;
+    --rework-checking-mix: #f1ae3d;
+    --checking-waiting-mix: #a4b28f;
+  }
+  .state-wrapper {
+    position: absolute;
+    top: 6px;
+    left: 6%;
+  }
+  .state {
+    margin: 95px 0 95px 0;
+    position: relative;
+  }
+  .circle {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+  }
+  .line {
+    position: absolute;
+    height: 58px;
+    width: 5px;
+    left: 10px;
+  }
+  .line-down {
+    bottom: 18px;
+  }
+  .line-up {
+    top: 18px;
+  }
+  .line-succeed-rework-up {
+    background-image: linear-gradient(var(--succeed-color), var(--succeed-rework-mix));
+  }
+  .line-succeed-rework-down {
+    background-image: linear-gradient(var(--succeed-rework-mix), var(--rework-color));
+  }
+  .line-rework-checking-up {
+    background-image: linear-gradient(var(--rework-color), var(--rework-checking-mix));
+  }
+  .line-rework-checking-down {
+    background-image: linear-gradient(var(--rework-checking-mix), var(--checking-color));
+  }
+  .line-checking-waiting-up {
+    background-image: linear-gradient(var(--checking-color), var(--checking-waiting-mix));
+  }
+  .line-checking-waiting-down {
+    background-image: linear-gradient(var(--checking-waiting-mix), var(--waiting-color));
+  }
+  .circle-succeed {
+    background-color: var(--succeed-color);
+  }
+  .circle-rework {
+    background-color: var(--rework-color);
+  }
+  .circle-checking {
+    background-color: var(--checking-color);
+  }
+  .circle-waiting {
+    background-color: var(--waiting-color);
+  }

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #fafafa;
+}
+.wrapper {
+  display: relative;
+}
+.lessons {
+  margin-left: 5%;
+}
+.lesson {
+  display: flex;
+  align-items: center;
+}
+.card {
+  height: 100px;
+  position: relative;
+  width: 58%;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.15);
+}
+.card__label {
+  position: absolute;
+  top: 5px;
+  right: 5px; 
+  margin: 0;
+  background: dodgerblue;
+  color: white;
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  font-size: 1rem;
+  border-radius: 5%;
+}
+.card__image {
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+.card__text {
+  margin-left: 140px;
+  margin-top: 22px;
+  line-height: 1.7rem;
+}
+.notification {
+  width: 42%;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.notification__block {
+  position: relative;
+}
+.notification__icon {
+  position: absolute;
+  top: 5px;
+  width: 20px;
+  margin: 0 10px 0 10px;
+}
+.notification__text {
+  margin-left: 40px;
+}
+.notification__succeed {
+  color: #ad4;
+}
+.notification__checking {
+  color: #EB3;
+}
+.notification__rework {
+  color: #E72;
+}
+.notification__waiting {
+  color: grey;
+}

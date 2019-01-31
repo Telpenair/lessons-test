@@ -1,0 +1,5 @@
+export const DATA_LOAD = {
+    REQUEST: 'DATA_LOAD_REQUEST',
+    SUCCESS: 'DATA_LOAD_SUCCESS',
+    FAIL: 'DATA_LOAD_FAIL',
+};
