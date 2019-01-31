@@ -1,6 +1,11 @@
 import React from 'react'
 import '../stylesheets/statesLine.css'
 
+/**
+ * Это компонент, отрисовывающий линию состояний.
+ * В этом проекте он просто на абсолютах слева от списка уроков.
+ * Но структура классов рассчитана на то, что дальше можно сделать итерируемую линию.
+ */
 const StatesLine = () => (
     <div className="state-wrapper">
         <div className="state">
