@@ -9,13 +9,19 @@ import axios from 'axios';
  */
 function* handleDataLoad() {
     try {
-        const data = yield call(axios.get, 'https://api.myjson.com/bins/h0wmg');
+        const data = yield call(
+            axios.get,
+            'https://my-json-server.typicode.com/Telpenair/lessons-test/db'
+        );
         yield put(loadDataSuccess(data));
     } catch (e) {
-        yield put(loadDataError({
-            userMessage: 'На сервере возникла неисправность, извините за причиненные неудобства',
-            serverMessage: e.message
-        }));
+        yield put(
+            loadDataError({
+                userMessage:
+                    'На сервере возникла неисправность, извините за причиненные неудобства',
+                serverMessage: e.message,
+            })
+        );
     }
 }
 

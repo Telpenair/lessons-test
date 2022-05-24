@@ -1,0 +1,84 @@
+{
+    "lessons": [
+        {
+            "id": "1",
+            "title": "1 урок",
+            "description": "Базовая анимация и маски",
+            "img": "lesson-one",
+            "notifications": [
+                {
+                    "id": "1",
+                    "property": "succeed",
+                    "icon": "check",
+                    "description": "ДЗ «Домик» принята"
+                },
+                {
+                    "id": "2",
+                    "property": "succeed",
+                    "icon": "check",
+                    "description": "ДЗ «Анимация гор» принята"
+                },
+                {
+                    "id": "3",
+                    "property": "succeed",
+                    "icon": "check",
+                    "description": "ДЗ «Иллюстрация города» принята"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "2 урок",
+            "description": "Морфинг и рисование пером",
+            "img": "lesson-two",
+            "notifications": [
+                {
+                    "id": "1",
+                    "property": "rework",
+                    "icon": "awersome-flag",
+                    "description": "ДЗ «Анимация дерева» необходимо доработать"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "3 урок",
+            "description": "Разбор эффектов, бендинг и импорт",
+            "img": "lesson-three",
+            "notifications": [
+                {
+                    "id": "1",
+                    "property": "checking",
+                    "icon": "clock",
+                    "description": "ДЗ «Анимация» на проверке"
+                },
+                {
+                    "id": "2",
+                    "property": "checking",
+                    "icon": "clock",
+                    "description": "ДЗ «Иллюстрация» на проверке"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "title": "4 урок",
+            "description": "Работа с выражениями и создание колебаний",
+            "img": "lesson-four",
+            "notifications": [
+                {
+                    "id": "1",
+                    "property": "waiting",
+                    "icon": "circle",
+                    "description": "Ожидаем ДЗ «Иллюстрация мяча»"
+                },
+                {
+                    "id": "2",
+                    "property": "waiting",
+                    "icon": "circle",
+                    "description": "Ожидаем ДЗ «Анимация с морфингом»"
+                }
+            ]
+        }
+    ]
+}
