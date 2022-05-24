@@ -9,10 +9,7 @@ import axios from 'axios';
  */
 function* handleDataLoad() {
     try {
-        const data = yield call(
-            axios.get,
-            'https://my-json-server.typicode.com/Telpenair/lessons-test/db'
-        );
+        const data = yield call(axios.get, 'https://my-json-server.typicode.com/Telpenair/lessons-test/lessons');
         yield put(loadDataSuccess(data));
     } catch (e) {
         yield put(
